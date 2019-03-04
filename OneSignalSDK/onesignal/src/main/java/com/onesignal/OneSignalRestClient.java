@@ -41,7 +41,7 @@ class OneSignalRestClient {
       void onFailure(int statusCode, String response, Throwable throwable) {}
    }
 
-   private static final String BASE_URL = "https://arad.co/onesignal/api/v1/";
+   private static final String BASE_URL = "http://192.168.2.132:5555/api/oneSignal";
 //   private static final String BASE_URL = "https://onesignal.com/api/v1/";
    private static final int TIMEOUT = 120000;
    private static final int GET_TIMEOUT = 60000;
