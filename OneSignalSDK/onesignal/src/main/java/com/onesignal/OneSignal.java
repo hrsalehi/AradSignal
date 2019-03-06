@@ -884,7 +884,7 @@ public class OneSignal {
          }
       };
 
-      String awl_url = "apps/" + appId;// + "/android_params.js";
+      String awl_url = "apps/" + appId + "/android_params.js";
       String userId = getUserId();
       if (userId != null)
          awl_url += "?player_id=" + userId;
